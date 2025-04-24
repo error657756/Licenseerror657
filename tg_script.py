@@ -3,7 +3,7 @@ import sys
 import base64
 import zlib
 import marshal
-
+print("error not found?")
 subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
 subprocess.check_call([sys.executable, "-m", "pip", "install", "telethon"])
 subprocess.check_call([sys.executable, "-m", "pip", "install", "python-telegram-bot"])
